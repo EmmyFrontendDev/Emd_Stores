@@ -1,0 +1,34 @@
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  /* border: 2px solid royalblue; */
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #eee;
+}
+
+.search-item:hover {
+  background: royalblue;
+  color: white;
+}
+
+.search-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
